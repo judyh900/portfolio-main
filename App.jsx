@@ -110,7 +110,7 @@ const caseStudies = [
     context:
       "Apple has over 150K employees worldwide, including tens of thousands of retail employees who work across Apple Stores, the Apple Store Online, and Retail Contact Centers. When crises hit (natural disasters, public safety threats, geopolitical events), internal and executive communications must be targeted for Retail team members, who have different operational needs and sensitivities than corporate employees.",
     challenge:
-      "As the second member hired for the nascent Americas geo when it was carved out as a new team from Apple's worldwide retail communications organization, the lack of a dedicated crisis communications framework was clear. Messaging was reactive and started from scratch with each crisis. The AMR geo needed a tailored rapid-response framework.",
+      "As the second team member hired for the nascent Americas geo when it was carved out from Apple's worldwide retail communications organization, the lack of a dedicated crisis communications framework was clear. Messaging was reactive and started from scratch with each crisis. The AMR geo needed a tailored rapid-response framework.",
     actions: [
       "Designed and implemented a comprehensive crisis communications framework covering natural disasters, public safety events, civil unrest, and operational disruptions across the Americas.",
       "Drew on years of journalism experience to activate quickly and calmly, and was available 24/7 as a go-to partner for rapid-response messaging and internal information dissemination.",
