@@ -110,7 +110,7 @@ const caseStudies = [
     context:
       "Apple has over 150K employees worldwide, including tens of thousands of retail employees who work across Apple Stores, the Apple Store Online, and Retail Contact Centers. When crises hit (natural disasters, public safety threats, geopolitical events), internal and executive communications must be targeted for Retail team members, who have different operational needs and sensitivities than corporate employees.",
     challenge:
-      "As the second team member hired for the nascent Americas geo when it was carved out from Apple's worldwide retail communications organization, the lack of a dedicated crisis communications framework was clear. Messaging was reactive and started from scratch with each crisis. The AMR geo needed a tailored rapid-response framework.",
+      "As the second member hired for the nascent Americas geo when it was carved out as a new team from Apple's worldwide retail communications organization, the lack of a dedicated crisis communications framework was clear. Messaging was reactive and started from scratch with each crisis. The AMR geo needed a tailored rapid-response framework.",
     actions: [
       "Designed and implemented a comprehensive crisis communications framework covering natural disasters, public safety events, civil unrest, and operational disruptions across the Americas.",
       "Drew on years of journalism experience to activate quickly and calmly, and was available 24/7 as a go-to partner for rapid-response messaging and internal information dissemination.",
@@ -720,7 +720,7 @@ function getStyles(p) {
       transition: "background 0.4s, border-color 0.4s, color 0.4s",
     },
     contactGrid: { marginTop: 32 },
-    contactMain: { maxWidth: 600 },
+    contactMain: { maxWidth: 720 },
     contactDetails: {
       marginTop: 24,
       display: "flex",
@@ -822,7 +822,7 @@ function About({ s }) {
       <div style={s.aboutGrid}>
         <div style={s.aboutMain}>
           <p style={s.bodyText}>
-            I am a strategic communications professional with more than 15 years of experience across internal communications, crisis response, editorial leadership, print and broadcast journalism, and business development. My career spans Apple, the BBC World Service, GBH, WBUR, and The Christian Science Monitor, among other media outlets.
+            I am a strategic communications professional with over 15 years of experience across internal communications, crisis response, editorial leadership, print and broadcast journalism, and business development. My career spans Apple, the BBC World Service, GBH, WBUR, and The Christian Science Monitor, among other media outlets.
           </p>
           <p style={s.bodyText}>
             At Apple, I helped steer internal communications for Retail across the Americas, writing and editing targeted content, executive voice, and crisis response messaging in partnership with teams across Apple, and driving communications for high-profile launches such as new store and new country openings. Content I wrote and strategized exceeded engagement benchmarks, and I became a trusted partner for sensitive, cross-functional initiatives.
@@ -998,16 +998,17 @@ function Contact({ s }) {
       <div style={s.contactGrid}>
         <div style={s.contactMain}>
           <p style={s.bodyText}>
-            I am open to conversations about strategic communications, editorial leadership, campaign and event copywriting, and content strategy roles. Based in the San Francisco Bay Area.
+            I am open to conversations about strategic technology communications, editorial leadership, campaign and event copywriting, and content strategy roles.
+          </p>
+          <p style={s.bodyText}>
+            Based in the San Francisco Bay Area.
           </p>
           <div style={s.contactDetails}>
             <div style={s.contactItem}>
-              <span style={s.contactLabel}>Email</span>
-              <a href="mailto:judy@judyfinnharris.com" style={{...s.contactValue, color: s.contactValue.color, textDecoration: "none"}}>judy@judyfinnharris.com</a>
+              <a href="mailto:judy@judyfinnharris.com" style={{...s.contactValue, textDecoration: "none"}}>judy@judyfinnharris.com</a>
             </div>
             <div style={s.contactItem}>
-              <span style={s.contactLabel}>LinkedIn</span>
-<a href="https://linkedin.com/in/judyfinnharris" target="_blank" rel="noopener noreferrer" style={{...s.contactValue, color: s.contactValue.color, textDecoration: "none"}}>LinkedIn</a>
+              <a href="https://linkedin.com/in/judyfinnharris" target="_blank" rel="noopener noreferrer" style={{...s.contactValue, textDecoration: "none"}}>LinkedIn</a>
             </div>
           </div>
         </div>
