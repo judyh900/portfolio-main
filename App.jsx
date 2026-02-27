@@ -1003,11 +1003,11 @@ function Contact({ s }) {
           <div style={s.contactDetails}>
             <div style={s.contactItem}>
               <span style={s.contactLabel}>Email</span>
-              <span style={s.contactValue}>judy@judyfinnharris.com</span>
+              <a href="mailto:judy@judyfinnharris.com" style={{...s.contactValue, color: s.contactValue.color, textDecoration: "none"}}>judy@judyfinnharris.com</a>
             </div>
             <div style={s.contactItem}>
               <span style={s.contactLabel}>LinkedIn</span>
-              <span style={s.contactValue}>linkedin.com/in/judyfinnharris</span>
+              <a href="https://linkedin.com/in/judyfinnharris" target="_blank" rel="noopener noreferrer" style={{...s.contactValue, color: s.contactValue.color, textDecoration: "none"}}>linkedin.com/in/judyfinnharris</a>
             </div>
           </div>
         </div>
