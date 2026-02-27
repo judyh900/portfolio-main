@@ -245,9 +245,11 @@ const skillCategories = [
       "Internal Communications",
       "Crisis Response & Communications",
       "Executive Messaging & Talking Points",
-      "Brand Voice & Tone of Voice",
+      "Brand Voice",
       "Narrative Development",
       "Stakeholder Alignment",
+      "Messaging Frameworks",
+      "Thought Leadership",
     ],
   },
   {
@@ -258,16 +260,20 @@ const skillCategories = [
       "Script Writing (Keynote, Broadcast, Audio)",
       "Copy Editing & Proofreading",
       "Long-Form & Short-Form Content",
+      "Technical Writing & Translation",
+      "Style Guides & Tone of Voice",
+      "Editorial Pipeline Management",
     ],
   },
   {
-    label: "Production & Media",
+    label: "AI & Content Strategy",
     items: [
-      "Audio Production & Direction",
-      "Broadcast News Production",
-      "Audio Book Production",
+      "AI-Assisted Creative Workflows",
+      "Multi-Channel Content",
+      "Content Strategy",
       "Editorial Calendar & Workflow Management",
       "Social Media Strategy",
+      "Presentations & Script Development",
     ],
   },
   {
@@ -791,7 +797,7 @@ function Home({ onNav, s }) {
     <section style={s.hero}>
       <div style={s.heroOverlay} />
       <div style={s.heroContent}>
-        <p style={s.heroEyebrow}>Strategic Communicator · Writer/Editor · Journalist</p>
+        <p style={s.heroEyebrow}>Technology Communications · Editorial Content & Strategy</p>
         <h1 style={s.heroTitle}>Judy Finn Harris</h1>
         <p style={s.heroSub}>
           Translating complex strategies into clear, compelling narratives that move organizations forward. From Apple's crisis response to the BBC World Service, I bring journalistic rigor and editorial precision to high-stakes communications.
@@ -840,7 +846,7 @@ function About({ s }) {
             <h3 style={s.aboutCardTitle}>Education</h3>
             <p style={s.aboutCardText}>MS Project Management, Boston University (in progress)</p>
             <p style={s.aboutCardText}>Graduate Certificate, Global Marketing Management, Boston University</p>
-            <p style={s.aboutCardText}>BA Politics, Oberlin College</p>
+            <p style={s.aboutCardText}>BA Government, Oberlin College</p>
           </div>
           <div style={s.aboutCard}>
             <h3 style={s.aboutCardTitle}>Notable Affiliations</h3>
@@ -1013,7 +1019,7 @@ function Contact({ s }) {
 function Footer({ s }) {
   return (
     <footer style={s.footer}>
-      <p style={s.footerText}>Judy Finn Harris · Strategic Communicator · Writer/Editor · Journalist</p>
+      <p style={s.footerText}>Judy Finn Harris · Technology Communications · Editorial Content & Strategy</p>
     </footer>
   );
 }
