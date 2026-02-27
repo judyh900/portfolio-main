@@ -1007,7 +1007,7 @@ function Contact({ s }) {
             </div>
             <div style={s.contactItem}>
               <span style={s.contactLabel}>LinkedIn</span>
-              <a href="https://linkedin.com/in/judyfinnharris" target="_blank" rel="noopener noreferrer" style={{...s.contactValue, color: s.contactValue.color, textDecoration: "none"}}>linkedin.com/in/judyfinnharris</a>
+<a href="https://linkedin.com/in/judyfinnharris" target="_blank" rel="noopener noreferrer" style={{...s.contactValue, color: s.contactValue.color, textDecoration: "none"}}>LinkedIn</a>
             </div>
           </div>
         </div>
