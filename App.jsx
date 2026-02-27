@@ -822,7 +822,7 @@ function About({ s }) {
       <div style={s.aboutGrid}>
         <div style={s.aboutMain}>
           <p style={s.bodyText}>
-            I am a strategic communications professional with over 15 years of experience across internal communications, crisis response, editorial leadership, print and broadcast journalism, and business development. My career spans Apple, the BBC World Service, GBH, WBUR, and The Christian Science Monitor, among other media outlets.
+            I am a strategic communications professional with more than 15 years of experience across internal communications, crisis response, editorial leadership, print and broadcast journalism, and business development. My career spans Apple, the BBC World Service, GBH, WBUR, and The Christian Science Monitor, among other media outlets.
           </p>
           <p style={s.bodyText}>
             At Apple, I helped steer internal communications for Retail across the Americas, writing and editing targeted content, executive voice, and crisis response messaging in partnership with teams across Apple, and driving communications for high-profile launches such as new store and new country openings. Content I wrote and strategized exceeded engagement benchmarks, and I became a trusted partner for sensitive, cross-functional initiatives.
